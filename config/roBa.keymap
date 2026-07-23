@@ -81,8 +81,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E      &kp R                  &kp T                                                         &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D      &kp F                  &kp G        &trans                           &mt QMARK LBKT  &kp H                 &kp J  &kp K      &kp L    &kp INT_RO
-&kp Z             &kp X         &kp C      &kp V                  &kp B        &mt PRINTSCREEN ESC              &kp INT1        &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A             &kp S         &kp D      &kp F                  &kp G        &trans                           &mt QMARK LBKT  &kp H                 &kp J  &kp K      &kp L    &kp SLASH
+&kp Z             &kp X         &kp C      &kp V                  &kp B        &mt PRINTSCREEN ESC              &kp INT1        &kp N                 &kp M  &kp COMMA  &kp DOT  &kp MINUS
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LSHFT  &lt_to_layer_0 6 INT2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt 1 ENTER     &mt DELETE BACKSPACE                             &mt LS(ENTER) TAB
             >;
 
@@ -92,7 +92,7 @@
         SYMBOLS {
             bindings = <
 &trans  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LS(N8)        &kp LS(N9)         &trans         &trans             &trans
-&trans  &kp LS(DOLLAR)   &kp PERCENT   &kp INT_RO            &kp UNDERSCORE         &trans      &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
+&trans  &kp LS(DOLLAR)   &kp PERCENT   &kp LS(MINUS)         &kp UNDERSCORE         &trans      &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
 &trans  &kp EXCLAMATION  &kp QUESTION  &kp HASH              &kp SLASH              &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
 &trans  &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                 &trans
             >;
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp ESCAPE                  &kp F7  &kp F8  &kp F9  &kp F10                                           &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&kp SLASH                   &kp F4  &kp F5  &kp F6  &kp F11  &trans               &kp INT_YEN         &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
-&mt LEFT_SHIFT KP_NUMBER_0  &kp F1  &kp F2  &kp F3  &kp F12  &kp PRINTSCREEN      &kp KP_EQUAL_AS400  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-&trans                      &trans  &trans  &trans  &trans   &trans               &trans              &trans                                                  &kp PIPE
+&kp ESCAPE                  &kp F7  &kp F8  &kp F9  &kp F10                                     &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
+&kp SLASH                   &kp F4  &kp F5  &kp F6  &kp F11  &trans         &kp INT_YEN         &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp F1  &kp F2  &kp F3  &kp F12  &kp MINUS      &kp KP_EQUAL_AS400  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&trans                      &trans  &trans  &trans  &trans   &trans         &trans              &trans                                                  &kp PIPE
             >;
         };
 
